@@ -5,5 +5,15 @@
         <meta charset="UTF-8">
     </head>
     <body>
+        <button onclick="myfunction()">click here</button>
+        <p id="mah"></p>
+        <script>
+            function myfunction(){
+                var user_name = prompt("please enter your name","mahmoud");
+                if (user_name != null){
+                    document.getElementById("mah").innerHTML = ("Hello" + person + "! How are you today?");
+                }
+            }
+        </script>
     </body>
 </html>
